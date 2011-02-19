@@ -17,3 +17,18 @@ task is to return a list of numbers that are missing, in order from smallest to 
 
 Implement the MissingNumberFinder interface to provide this functionality. Your code will be run against a
 number of tests - each one being run 10 - 1000 times.
+
+Parameters:
+
+a. The array of numbers will contain between 1 and Integer.MAX_VALUE (inclusive) integers. It may or may not contain
+duplicate values (check the duplicates flag).
+
+b. The upper bound is between 1 and Integer.MAX_VALUE, inclusive.
+
+Hardware:
+
+1. The test will be run on a Windows 7 machine with a Core i7 925 processor.
+
+2. The amount of memory you'll have available is the upperbound of the largest test * 16 bytes.
+
+3. This will be run with JDK 1.6 update 24 with the -server flag.
